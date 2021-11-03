@@ -25,7 +25,7 @@ bot = Client('pdisk bot',
 @bot.on_message(filters.command('start') & filters.private)
 async def start(bot, message):
     await message.reply(
-        f"**𝐇𝐞𝐥𝐥𝐨! 👨‍💻{message.chat.first_name}!**\n\n"
+        f"**𝐇𝐞𝐥𝐥𝐨! 👨‍💻{message.chat.first_name}!Creater @half_intelligent_2**\n\n"
         "𝐈'𝐦 𝐚 𝐏𝐝𝐢𝐬𝐤 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐫 𝐛𝐨𝐭. 𝐉𝐮𝐬𝐭 𝐬𝐞𝐧𝐝 𝐦𝐞 𝐥𝐢𝐧𝐤 𝐨𝐫 𝐅𝐮𝐥𝐥 𝐩𝐨𝐬𝐭... \n 𝐓𝐡𝐢𝐬 𝐛𝐨𝐭 𝐢𝐬 𝐦𝐚𝐝𝐞 𝐛𝐲 [@ᴛɢᴇᴛᴇʟᴇʀᴏɪᴅ](https://t.me/TheTeleRoid)")
 
 
@@ -147,7 +147,7 @@ async def remove_username(new_List):
 async def addFooter(str):
     footer = """
 ━━━━━━━━━━━━━━━
-📌 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ᴏʀ ᴄʜᴀɴɢᴇ ᴀᴜᴅɪᴏ : Get Tuts On https://t.me/joinchat/xxz1cj6N1jswYmNl
+📌 ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ / ᴡᴀᴛᴄʜ ᴏɴʟɪɴᴇ ᴏʀ ᴄʜᴀɴɢᴇ ᴀᴜᴅɪᴏ : Get Tuts On https://t.me/joinchat/
 ━━━━━━━━━━━━━━━
 📢 ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ ➡ @""" + CHANNEL
     return str + footer
